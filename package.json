@@ -1,0 +1,20 @@
+{
+  "name": "electron-processing-app",
+  "version": "1.0.0",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "start-server": "node server.js"
+  },
+  "devDependencies": {
+    "@teamwork/websocket-json-stream": "^2.0.0"
+  },
+  "dependencies": {
+    "codemirror": "^5.65.5",
+    "electron": "latest",
+    "reconnecting-websocket": "^4.4.0",
+    "sharedb": "^5.0.1",
+    "sharedb-string-binding": "^1.0.0",
+    "ws": "^8.17.0"
+  }
+}
